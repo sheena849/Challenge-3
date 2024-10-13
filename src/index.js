@@ -114,7 +114,7 @@ function buyTicketHandler(movie) {
 }
 
 function deleteMovie(movieId, filmItem) {
-  fetch(`${API_URL}/${movieId}`, { // Corrected line
+  fetch(`${API_URL}/${movieId}`, { 
     method: 'DELETE'
   })
   .then(() => {
